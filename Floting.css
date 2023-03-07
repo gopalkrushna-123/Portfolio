@@ -1,0 +1,12 @@
+.floting {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 4.5rem;
+    padding: 0px 28px 0px 0px;
+    
+    border-radius: 17px;
+}
+.floting img{
+    transform: scale(0.4);
+}
