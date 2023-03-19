@@ -4,51 +4,230 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="favicon.ico">
+    
+    <!--Menu Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Google Cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <title>Document</title>
 </head>
-<body>
-    <div class="port">
-        <nav>
-            <img src="/images/Logo.png" width="100" height="100" class="logo">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="index.html">PORTFOLIO</a></li>
-                <li><a href="index.html">SERVICES</a></li>
-                <li class="btn"><a href="tel:+918338835077"> <i class="fa-solid fa-phone"></i> HIRE ME</a></li>
-            </ul>
-        </nav>
-        <div class="detail">
-            <h2>I’M <span class="name"> </span></h2>
-            <p>This is my official portfolio website to shows all
-                Detail and work exiprins web development.
-            </p>
-            <div class="social">
+<body class="body">
+    <header class="header">
+
+        <div class="only-mobile">
+            <a href="#" class="logo">Portfolio</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        </div>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Service</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Gopal Krushna</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Illum hic maxime expedita deleniti, ratione voluptates corporis incidunt tenetur eius quae numquam,
+                  consectetur rem nostrum ex voluptas aperiam possimus nam aliquam?</p>
+
+            <div class="social-media">
                 <a href="https://www.facebook.com/developergopal"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/gopal-krushna-sahu-9a0942262/"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://twitter.com/LtGopal"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://github.com/gopalkrushna-123"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/gopal-krushna-sahu-9a0942262/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
-            <button class="button">More About Me</button>
-    </div>
-    <div class="images">
-        <img src="./images/bnnn.png" class="shape">
-        <img src="./images/image.png"  class="boy">
-    </div>
+            <a href="#" id="btn">Download Cv</a>
+        </div>
+
+        <div class="home-img">
+            
+            <div class="img-back position-relative">
+                <img src="./Images/gopu.png" class="position-absolute" height="370" width="290" alt="Gopal">
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./Images/gopu.png" height="370" width="290" alt="Gopal">
+            
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Possimus cupiditate exercitationem rem libero aut,
+                 minus autem sit modi tempora ab doloremque dolor perferendis similique natus dolores sunt?
+                  Reprehenderit, perferendis ipsum ? <br >
+                  Possimus cupiditate exercitationem rem libero aut,
+                 minus autem sit modi tempora ab doloremque dolor perferendis similique natus dolores sunt?
+                  Reprehenderit, perferendis ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus cupiditate rem .
+                </p>
+                  <a href="#" id="btn">Read More</a>
+        </div>
+    </section>
+
+    <!--Service Section-->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                    exercitationem eveniet earum itaque,
+                     eos doloribus architecto error inventore sed ipsam eius ipsum! Eum, itaque cum?
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                    exercitationem eveniet earum itaque,
+                    dolores voluptatem laborum perferendis facilis .</p>
+                <a href="#" id="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bxs-paint"></i>
+                <h3>Graphic Designer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                    exercitationem eveniet earum itaque,
+                     eos doloribus architecto error inventore sed ipsam eius ipsum! Eum, itaque cum?
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                    exercitationem eveniet earum itaque,
+                    dolores voluptatem laborum perferendis facilis .</p>
+                <a href="#" id="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bx-bar-chart-alt"></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                     exercitationem eveniet earum itaque,
+                      eos doloribus architecto error inventore sed ipsam eius ipsum! Eum, itaque cum?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                     exercitationem eveniet earum itaque,
+                     dolores voluptatem laborum perferendis facilis .
+                    </p>
+                <a href="#" id="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio Section-->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./Images/co-1.jpg" alt="computer-1">
+                <div class="portfolio-layer">
+                    <h4>Web Designer</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, cum.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/co-2.jpg" alt="computer-2">
+                <div class="portfolio-layer">
+                    <h4>Web Designer</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, cum.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/co-6.jpg" alt="computer-4">
+                <div class="portfolio-layer">
+                    <h4>Web Designer</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, cum.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/co-4.jpg" alt="computer-4">
+                <div class="portfolio-layer">
+                    <h4>Web Designer</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, cum.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/co-5.1.jpg" alt="computer-4">
+                <div class="portfolio-layer">
+                    <h4>Web Designer</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, cum.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/co-3.jpg" alt="computer-3">
+                <div class="portfolio-layer">
+                    <h4>Web Designer</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, cum.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div> 
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Messsage" id="btn">
+        </form>
+    </section>
+
+    <!--Footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Codehal | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!----typed js---->
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        var typed=new Typed(".name", {
-            strings:[,"GOPAL KRUSHNA","Web Developer","UI Designer"],
-            typeSpeed:70,
-            backSpeed:60,
-            loop:true
-        });
-    </script>
 
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
+    <!--Costum js-->
+   <script src="../Src/script.js"></script>
 </body>
 </html>
